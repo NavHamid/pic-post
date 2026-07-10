@@ -8,7 +8,7 @@ const Feed = () => {
     const [error, setError] = useState('')
 
     useEffect(() => {
-        axios.get('http://localhost:3000/posts')
+        axios.get('https://pic-post.onrender.com/posts')
             .then((response) => {
                 setPosts(response.data.posts)
                 setError('')

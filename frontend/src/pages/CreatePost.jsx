@@ -15,7 +15,7 @@ function CreatePost() {
         try {
             setSubmitting(true)
             setError('')
-            await axios.post('http://localhost:3000/create-post', formData)
+            await axios.post('https://pic-post.onrender.com/create-post', formData)
             navigate('/feed')
         } catch (err) {
             console.error(err)
