@@ -11,8 +11,8 @@ const App = () => {
 
         <header className="topbar">
           <div>
-            <p className="brand-kicker">Vision Board</p>
-            <h1 className="brand-title">Hamid Ansiar UI</h1>
+            <p className="brand-kicker">Share Your Moments</p>
+            <h1 className="brand-title">Pic-Post</h1>
           </div>
 
           <nav className="topbar-nav">
